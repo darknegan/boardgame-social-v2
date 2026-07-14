@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/shared/components/skeleton/skeleton.component.ts"],
+  "sourcesContent": ["\n    .skeleton {\n      background: linear-gradient(\n        90deg,\n        var(--color-surface-elevated) 25%,\n        var(--color-surface-hover) 50%,\n        var(--color-surface-elevated) 75%\n      );\n      background-size: 200% 100%;\n      animation: shimmer 1.2s infinite;\n      border-radius: var(--radius-md);\n    }\n\n    .round {\n      border-radius: var(--radius-full);\n    }\n\n    @keyframes shimmer {\n      0% { background-position: 200% 0; }\n      100% { background-position: -200% 0; }\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE;IAAA;MAAA,KAAA;MAAA,IAAA,0BAAA,GAAA;MAAA,IAAA,uBAAA,GAAA;MAAA,IAAA,0BAAA;AAMA,mBAAA,KAAA;AACA,aAAA,QAAA,KAAA;AACA,iBAAA,IAAA;;AAGF,CAAA;AACE,iBAAA,IAAA;;AAGF,WARE;AASA;AAAK,yBAAA,KAAA;;AACL;AAAO,yBAAA,MAAA;;;",
+  "names": []
+}

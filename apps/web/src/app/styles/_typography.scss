@@ -1,0 +1,76 @@
+@mixin font-display {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+@mixin font-heading {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+@mixin font-subheading {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+}
+
+@mixin font-body {
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-label {
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.text-display {
+  @include font-display;
+  font-size: 2.75rem;
+  line-height: 1.1;
+  color: var(--color-text-primary);
+}
+
+.text-h1 {
+  @include font-heading;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--color-text-primary);
+}
+
+.text-h2 {
+  @include font-subheading;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: var(--color-text-primary);
+}
+
+.text-h3 {
+  @include font-subheading;
+  font-size: 1.1875rem;
+  line-height: 1.35;
+  color: var(--color-text-primary);
+}
+
+.text-body {
+  @include font-body;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.text-caption {
+  @include font-body;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.text-overline {
+  @include font-label;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}

@@ -1,0 +1,42 @@
+> ng build web --configuration=development
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+> Building...
+√ Building...
+Initial chunk files | Names                        |  Raw size
+chunk-B6IJ3W3N.js   | -                            | 861.62 kB | 
+chunk-ESOBHDPQ.js   | -                            | 729.20 kB | 
+chunk-3YWMTBPO.js   | -                            | 259.50 kB | 
+chunk-G3THX2OW.js   | -                            | 163.40 kB | 
+chunk-XKHOIK35.js   | -                            |  88.98 kB | 
+main.js             | main                         |  50.95 kB | 
+chunk-QR2D7B5O.js   | -                            |   5.56 kB | 
+styles.css          | styles                       |   5.07 kB | 
+chunk-EOI6FRHZ.js   | -                            |   2.44 kB | 
+chunk-FNB3VBA5.js   | -                            |   1.25 kB | 
+
+                    | Initial total                |   2.17 MB
+
+Lazy chunk files    | Names                        |  Raw size
+chunk-RUD23VHN.js   | -                            | 152.70 kB | 
+chunk-4QV2J6KA.js   | events-page-component        |  26.78 kB | 
+chunk-5AYOTGDY.js   | game-overview-page-component |  25.09 kB | 
+chunk-FBDP7AF5.js   | home-page-component          |  20.49 kB | 
+chunk-6ZVU7NGI.js   | tier-list-page-component     |  18.82 kB | 
+chunk-T52VPUVZ.js   | profile-edit-page-component  |  15.45 kB | 
+chunk-Q25TCKA6.js   | settings-page-component      |  14.61 kB | 
+chunk-X5SJT2YL.js   | profile-page-component       |  13.04 kB | 
+chunk-C2RDJIMU.js   | games-page-component         |  12.26 kB | 
+chunk-6BFOTSBT.js   | collection-page-component    |  11.74 kB | 
+chunk-SHKEUGF4.js   | user-profile-page-component  |   9.90 kB | 
+chunk-T3V355ZA.js   | -                            |   9.70 kB | 
+chunk-NCRLBFX7.js   | signup-page-component        |   9.42 kB | 
+chunk-CRH2O3BL.js   | import-games-page-component  |   9.21 kB | 
+chunk-PS7FL7IU.js   | onboarding-page-component    |   8.98 kB | 
+...and 10 more lazy chunks files. Use "--verbose" to show all the files.
+
+Application bundle generation complete. [3.789 seconds] - 2026-07-14T03:09:23.180Z
+
+Output location: C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\dist\apps\web
+

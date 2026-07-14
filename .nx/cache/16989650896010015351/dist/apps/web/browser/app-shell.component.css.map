@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/layout/app-shell/app-shell.component.ts"],
+  "sourcesContent": ["\n    .shell {\n      display: flex;\n      min-height: 100vh;\n      background: var(--color-bg-base);\n    }\n\n    .main {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n      min-width: 0;\n    }\n\n    .content {\n      flex: 1;\n      padding: var(--space-xl);\n      overflow: auto;\n    }\n\n    @media (max-width: 768px) {\n      .content {\n        padding: var(--space-lg);\n        padding-bottom: calc(64px + var(--space-lg));\n      }\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,WAAA;AACA,cAAA;AACA,cAAA,IAAA;;AAGF,CAAA;AACE,QAAA;AACA,WAAA;AACA,kBAAA;AACA,aAAA;;AAGF,CAAA;AACE,QAAA;AACA,WAAA,IAAA;AACA,YAAA;;AAGF,QAAA,WAAA;AACE,GAPF;AAQI,aAAA,IAAA;AACA,oBAAA,KAAA,KAAA,EAAA,IAAA;;;",
+  "names": []
+}

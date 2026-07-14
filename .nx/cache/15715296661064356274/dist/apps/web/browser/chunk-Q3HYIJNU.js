@@ -1,0 +1,1 @@
+import{g as a}from"./chunk-VQA5EDIY.js";import{L as e,Q as o}from"./chunk-RAYXPLMT.js";var l=(()=>{class t{http=o(a);listPlays(r=20){return this.http.get("plays",{params:{limit:r}})}logPlay(r){return this.http.post("plays",r)}static \u0275fac=function(i){return new(i||t)};static \u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"})}return t})();export{l as a};

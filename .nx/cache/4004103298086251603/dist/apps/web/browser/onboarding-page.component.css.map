@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/features/onboarding/onboarding-page.component.ts"],
+  "sourcesContent": ["\n    .onboarding { max-width: 480px; margin: 0 auto; padding: var(--space-2xl); }\n    .title { margin: 0; font-family: 'Fraunces', serif; font-size: 1.75rem; }\n    .subtitle { margin: var(--space-sm) 0 var(--space-xl); color: var(--color-text-secondary); }\n    .field { display: flex; flex-direction: column; gap: var(--space-xs); margin-bottom: var(--space-lg); font-size: 0.875rem; font-weight: 600; color: var(--color-text-secondary); }\n    .error { color: var(--color-danger); font-size: 0.875rem; }\n    .skip { margin-top: var(--space-lg); text-align: center; font-size: 0.875rem; a { color: var(--color-primary); font-weight: 600; } }\n  "],
+  "mappings": ";AACI,CAAA;AAAc,aAAA;AAAkB,UAAA,EAAA;AAAgB,WAAA,IAAA;;AAChD,CAAA;AAAS,UAAA;AAAW,eAAA,UAAA,EAAA;AAAgC,aAAA;;AACpD,CAAA;AAAY,UAAA,IAAA,YAAA,EAAA,IAAA;AAA2C,SAAA,IAAA;;AACvD,CAAA;AAAS,WAAA;AAAe,kBAAA;AAAwB,OAAA,IAAA;AAAsB,iBAAA,IAAA;AAAgC,aAAA;AAAqB,eAAA;AAAkB,SAAA,IAAA;;AAC7I,CAAA;AAAS,SAAA,IAAA;AAA4B,aAAA;;AACrC,CAAA;AAAQ,cAAA,IAAA;AAA6B,cAAA;AAAoB,aAAA;;AAAqB,CAA9E,KAA8E;AAAI,SAAA,IAAA;AAA6B,eAAA;;",
+  "names": []
+}

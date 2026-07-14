@@ -1,0 +1,51 @@
+{
+  "name": "boardgame-social",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "npm@11.8.0",
+  "scripts": {
+    "start": "nx serve web",
+    "start:web": "nx serve web",
+    "start:api": "nx serve api",
+    "build": "nx build web && nx build api",
+    "build:web": "nx build web",
+    "build:api": "nx build api",
+    "test": "nx test web"
+  },
+  "dependencies": {
+    "@angular/cdk": "^21.2.0",
+    "@angular/common": "^21.2.0",
+    "@angular/compiler": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/forms": "^21.2.0",
+    "@angular/platform-browser": "^21.2.0",
+    "@angular/router": "^21.2.0",
+    "@nestjs/axios": "^4.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "axios": "^1.8.4",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "fast-xml-parser": "^5.0.9",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.2.5",
+    "@angular/cli": "^21.2.5",
+    "@angular/compiler-cli": "^21.2.0",
+    "@nx/js": "20.8.1",
+    "@nx/nest": "20.8.1",
+    "@nx/node": "20.8.1",
+    "@nx/webpack": "20.8.1",
+    "jsdom": "^28.0.0",
+    "nx": "20.8.1",
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8"
+  }
+}

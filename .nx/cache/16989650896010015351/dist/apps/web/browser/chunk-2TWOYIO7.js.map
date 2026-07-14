@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/core/api/collections-api.service.ts"],
+  "sourcesContent": ["import { Injectable, inject } from '@angular/core';\r\nimport { HttpClient } from '@angular/common/http';\r\nimport { CollectionItem, CollectionTableItem } from '@bgs/shared';\r\nimport { Observable } from 'rxjs';\r\n\r\n@Injectable({ providedIn: 'root' })\r\nexport class CollectionsApiService {\r\n  private readonly http = inject(HttpClient);\r\n\r\n  getCollection(): Observable<CollectionTableItem[]> {\r\n    return this.http.get<CollectionTableItem[]>('collections');\r\n  }\r\n\r\n  getPreview(limit = 12): Observable<CollectionItem[]> {\r\n    return this.http.get<CollectionItem[]>('collections/preview', { params: { limit } });\r\n  }\r\n\r\n  importFromBgg(username: string): Observable<unknown> {\r\n    return this.http.post('collections/import', { username });\r\n  }\r\n}\r\n"],
+  "mappings": ";;;;;;;;;;;AAMM,IAAO,wBAAP,MAAO,uBAAqB;EACf,OAAO,OAAO,UAAU;EAEzC,gBAAa;AACX,WAAO,KAAK,KAAK,IAA2B,aAAa;EAC3D;EAEA,WAAW,QAAQ,IAAE;AACnB,WAAO,KAAK,KAAK,IAAsB,uBAAuB,EAAE,QAAQ,EAAE,MAAK,EAAE,CAAE;EACrF;EAEA,cAAc,UAAgB;AAC5B,WAAO,KAAK,KAAK,KAAK,sBAAsB,EAAE,SAAQ,CAAE;EAC1D;;qCAbW,wBAAqB;EAAA;4EAArB,wBAAqB,SAArB,uBAAqB,WAAA,YADR,OAAM,CAAA;;;sEACnB,uBAAqB,CAAA;UADjC;WAAW,EAAE,YAAY,OAAM,CAAE;;;",
+  "names": []
+}

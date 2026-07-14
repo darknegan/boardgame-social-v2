@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/shared/components/empty-state/empty-state.component.ts"],
+  "sourcesContent": ["\n    .empty-state {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n      padding: var(--space-3xl) var(--space-xl);\n      gap: var(--space-md);\n    }\n\n    .icon {\n      font-size: 2.5rem;\n    }\n\n    .title {\n      margin: 0;\n      font-family: 'Fraunces', serif;\n      font-size: 1.25rem;\n    }\n\n    .message {\n      margin: 0;\n      color: var(--color-text-secondary);\n      max-width: 360px;\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,WAAA;AACA,kBAAA;AACA,eAAA;AACA,cAAA;AACA,WAAA,IAAA,aAAA,IAAA;AACA,OAAA,IAAA;;AAGF,CAAA;AACE,aAAA;;AAGF,CAAA;AACE,UAAA;AACA,eAAA,UAAA,EAAA;AACA,aAAA;;AAGF,CAAA;AACE,UAAA;AACA,SAAA,IAAA;AACA,aAAA;;",
+  "names": []
+}

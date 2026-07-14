@@ -1,0 +1,33 @@
+> ng test web
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+> Building...
+√ Building...
+Application bundle generation failed. [4.012 seconds] - 2026-07-14T03:09:35.898Z
+
+X [ERROR] File 'apps\web\src\app\core\auth\auth.service.spec.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+  Files containing Angular metadata ('@Component'/'@Directive'/etc.) must be part of the TypeScript compilation. You can ensure the file is part of the TypeScript program via the 'files' or 'include' property.
+
+
+X [ERROR] File 'apps\web\src\app\core\api\collections-api.service.spec.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+  Files containing Angular metadata ('@Component'/'@Directive'/etc.) must be part of the TypeScript compilation. You can ensure the file is part of the TypeScript program via the 'files' or 'include' property.
+
+
+X [ERROR] File 'apps\web\src\app\app.spec.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+  Files containing Angular metadata ('@Component'/'@Directive'/etc.) must be part of the TypeScript compilation. You can ensure the file is part of the TypeScript program via the 'files' or 'include' property.
+
+
+X [ERROR] File 'apps\web\src\app\core\auth\auth.guard.spec.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+  Files containing Angular metadata ('@Component'/'@Directive'/etc.) must be part of the TypeScript compilation. You can ensure the file is part of the TypeScript program via the 'files' or 'include' property.
+
+
+X [ERROR] File 'apps\web\src\app\shared\components\toast\toast.service.spec.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+  Files containing Angular metadata ('@Component'/'@Directive'/etc.) must be part of the TypeScript compilation. You can ensure the file is part of the TypeScript program via the 'files' or 'include' property.
+
+

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/features/collection/collection-page.component.ts"],
+  "sourcesContent": ["\n    .count {\n      margin: 0 0 var(--space-lg);\n      color: var(--color-text-muted);\n      font-size: 0.875rem;\n      font-weight: 600;\n    }\n\n    .game-grid {\n      display: grid;\n      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));\n      gap: var(--space-lg);\n    }\n\n    .game-card {\n      overflow: hidden;\n      transition: transform 0.15s ease;\n\n      &:hover {\n        transform: translateY(-2px);\n      }\n\n      img {\n        width: 100%;\n        aspect-ratio: 1;\n        object-fit: cover;\n      }\n    }\n\n    .game-name {\n      margin: 0;\n      padding: var(--space-sm) var(--space-md);\n      font-size: 0.8125rem;\n      font-weight: 700;\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,UAAA,EAAA,EAAA,IAAA;AACA,SAAA,IAAA;AACA,aAAA;AACA,eAAA;;AAGF,CAAA;AACE,WAAA;AACA,yBAAA,OAAA,SAAA,EAAA,OAAA,KAAA,EAAA;AACA,OAAA,IAAA;;AAGF,CAAA;AACE,YAAA;AACA,cAAA,UAAA,MAAA;;AAEA,CAJF,SAIE;AACE,aAAA,WAAA;;AAGF,CARF,UAQE;AACE,SAAA;AACA,gBAAA;AACA,cAAA;;AAIJ,CAAA;AACE,UAAA;AACA,WAAA,IAAA,YAAA,IAAA;AACA,aAAA;AACA,eAAA;;",
+  "names": []
+}

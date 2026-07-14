@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/features/dev/tokens-preview-page.component.ts"],
+  "sourcesContent": ["\n    .section { padding: var(--space-xl); margin-bottom: var(--space-lg); h2 { margin-top: 0; font-family: 'Fraunces', serif; } }\n    .swatches { display: flex; flex-wrap: wrap; gap: var(--space-md); }\n    .swatch { text-align: center; font-size: 0.75rem; font-weight: 600; }\n    .swatch-color { width: 64px; height: 64px; border-radius: var(--radius-md); margin-bottom: var(--space-xs); border: 1px solid var(--color-border); }\n    .display { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 700; }\n    .body { font-size: 1rem; color: var(--color-text-secondary); }\n    .spacing-row { display: flex; align-items: flex-end; gap: var(--space-sm); }\n    .space-block { background: var(--color-primary-soft); border-radius: var(--radius-sm); }\n  "],
+  "mappings": ";AACI,CAAA;AAAW,WAAA,IAAA;AAA0B,iBAAA,IAAA;;AAAgC,CAArE,QAAqE;AAAK,cAAA;AAAe,eAAA,UAAA,EAAA;;AACzF,CAAA;AAAY,WAAA;AAAe,aAAA;AAAiB,OAAA,IAAA;;AAC5C,CAAA;AAAU,cAAA;AAAoB,aAAA;AAAoB,eAAA;;AAClD,CAAA;AAAgB,SAAA;AAAa,UAAA;AAAc,iBAAA,IAAA;AAAiC,iBAAA,IAAA;AAAgC,UAAA,IAAA,MAAA,IAAA;;AAC5G,CAAA;AAAW,eAAA,UAAA,EAAA;AAAgC,aAAA;AAAiB,eAAA;;AAC5D,CAAA;AAAQ,aAAA;AAAiB,SAAA,IAAA;;AACzB,CAAA;AAAe,WAAA;AAAe,eAAA;AAAuB,OAAA,IAAA;;AACrD,CAAA;AAAe,cAAA,IAAA;AAAuC,iBAAA,IAAA;;",
+  "names": []
+}

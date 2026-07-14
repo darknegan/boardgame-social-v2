@@ -1,0 +1,28 @@
+> ng build web --configuration=production
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+> Building...
+√ Building...
+Application bundle generation failed. [9.593 seconds] - 2026-07-14T03:02:43.223Z
+
+X [ERROR] TS2724: '"./core/auth/auth.guard"' has no exported member named 'onboardingImportGuard'. Did you mean 'onboardingGuard'? [plugin angular-compiler]
+
+    apps/web/src/app/app.routes.ts:11:2:
+      11 │   onboardingImportGuard,
+         ╵   ~~~~~~~~~~~~~~~~~~~~~
+
+  'onboardingGuard' is declared here.
+
+    apps/web/src/app/core/auth/auth.guard.ts:25:13:
+      25 │ export const onboardingGuard: CanActivateFn = async () => {
+         ╵              ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'imported' does not exist on type '{}'. [plugin angular-compiler]
+
+    apps/web/src/app/features/onboarding/import-games-page.component.ts:67:27:
+      67 │       this.result.set(res?.imported ?? 0);
+         ╵                            ~~~~~~~~
+
+

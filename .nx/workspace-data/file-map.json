@@ -1,0 +1,974 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.1",
+  "pathMappings": {
+    "@bgs/shared": [
+      "libs/shared/src/index.ts"
+    ],
+    "@bgs/shared/*": [
+      "libs/shared/src/lib/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "angular.json",
+        "hash": "5512232272243786783"
+      },
+      {
+        "file": "workspace.json",
+        "hash": "126425687024853922"
+      },
+      {
+        "file": "docs/migrations/001_social_tier_tables.sql",
+        "hash": "8364192893568374957"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "809736233805555256"
+      },
+      {
+        "file": "src/app/app.spec.ts",
+        "hash": "7513082611665285264"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "5024476166486271931"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "2917954890128038984"
+      },
+      {
+        "file": "src/app/app.html",
+        "hash": "18025211513816038268"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "10405740721546735325"
+      },
+      {
+        "file": "package.json",
+        "hash": "16715755157000791436"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "7897526985879639611"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11034553122722537750"
+      },
+      {
+        "file": "src/app/app.ts",
+        "hash": "13759062479519372097"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "11080398893561185157"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "7467919868826279542"
+      },
+      {
+        "file": "docs/plans/intialApp.plan.md",
+        "hash": "15940155278112871247"
+      },
+      {
+        "file": ".vscode/mcp.json",
+        "hash": "11492871017727097845"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13702745290097757620"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "10136459155298117738"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "8037249353422744134"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "458629560793803650"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "189877243707603707"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".cursor/rules/cursor.mdc",
+        "hash": "3984287136864923124"
+      },
+      {
+        "file": "src/app/app.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "docs/migrations/002_rls_policies.sql",
+        "hash": "10163026068814551078"
+      },
+      {
+        "file": "README.md",
+        "hash": "4560580517265050812"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "2106525680887238046"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "16566363916646804203"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "3946519850489691764"
+      }
+    ],
+    "projectFileMap": {
+      "web": [
+        {
+          "file": "apps/web/.env.example",
+          "hash": "12578807986499513659"
+        },
+        {
+          "file": "apps/web/project.json",
+          "hash": "4468742311195800276"
+        },
+        {
+          "file": "apps/web/public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "apps/web/src/app/app.config.ts",
+          "hash": "2061794893204612431",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/app.html",
+          "hash": "18025211513816038268"
+        },
+        {
+          "file": "apps/web/src/app/app.routes.ts",
+          "hash": "3947090990801305177",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/app.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/web/src/app/app.spec.ts",
+          "hash": "8744936703575809632",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/app.ts",
+          "hash": "5750174783147428442",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/collections-api.service.spec.ts",
+          "hash": "7730539941400522255",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/collections-api.service.ts",
+          "hash": "8882767673847409791",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/events-api.service.ts",
+          "hash": "7927439274571135868",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/games-api.service.ts",
+          "hash": "17060813464186144508",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/locations-api.service.ts",
+          "hash": "802196927515226974",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/plays-api.service.ts",
+          "hash": "11044662709322093714",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/profile-api.service.ts",
+          "hash": "14914170828045867589",
+          "deps": [
+            "npm:@angular/core",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/social-api.service.ts",
+          "hash": "8582672425950605164",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/api/tier-lists-api.service.ts",
+          "hash": "15288067574769576830",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/auth/auth.guard.spec.ts",
+          "hash": "7333709984850618749",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/auth/auth.guard.ts",
+          "hash": "4795757120526586932",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/auth/auth.service.spec.ts",
+          "hash": "35838535813319986",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/auth/auth.service.ts",
+          "hash": "12401006227254489554",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@supabase/supabase-js",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/http/api.interceptor.ts",
+          "hash": "12704127911599240876",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/http/error.interceptor.ts",
+          "hash": "5947094858577445940",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/supabase/avatar-storage.service.ts",
+          "hash": "9563666977142936256",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/supabase/supabase.service.ts",
+          "hash": "8289676062944034816",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@supabase/supabase-js"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/theme/theme.service.ts",
+          "hash": "12720518971286807240",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/core/toast/toast.service.ts",
+          "hash": "6761371176397414528",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/confirm-email-page.component.ts",
+          "hash": "6025164303033027566",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/forgot-password-page.component.ts",
+          "hash": "932136241792887102",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/login-page.component.ts",
+          "hash": "8710031927447359022",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/reset-password-page.component.ts",
+          "hash": "6900552455769953211",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/auth/signup-page.component.ts",
+          "hash": "5529811509670212997",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/collection/collection-page.component.ts",
+          "hash": "11826863667867780121",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/dev/tokens-preview-page.component.ts",
+          "hash": "5543612840195350546",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/events/create-event-modal.component.ts",
+          "hash": "440067410374484938",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/events/events-page.component.ts",
+          "hash": "16610170535190308121",
+          "deps": [
+            "npm:@angular/core",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/games/game-overview-page.component.ts",
+          "hash": "12416117697854799392",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/games/games-page.component.ts",
+          "hash": "1476899008553866541",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/home/home-page.component.ts",
+          "hash": "10238266498862156577",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/onboarding/import-games-page.component.ts",
+          "hash": "6873591284163646254",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/onboarding/onboarding-page.component.ts",
+          "hash": "4724251288795430463",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/plays/log-play-modal.component.ts",
+          "hash": "11521752223019255612",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/profile/profile-edit-page.component.ts",
+          "hash": "1430164015764056546",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/profile/profile-page.component.ts",
+          "hash": "17120061045946764936",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/profile/user-profile-page.component.ts",
+          "hash": "9454420612878028837",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/settings/settings-page.component.ts",
+          "hash": "15479119575694548582",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/shared/feature-placeholder.component.ts",
+          "hash": "7110071920105917379",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/features/tier-list/tier-list-page.component.ts",
+          "hash": "7263215146685511355",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/layout/app-shell/app-shell.component.ts",
+          "hash": "3272593208947980071",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/layout/auth-layout/auth-layout.component.ts",
+          "hash": "2895777038249626383",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/layout/bottom-nav/bottom-nav.component.ts",
+          "hash": "13495725713646612391",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/layout/sidebar/sidebar.component.ts",
+          "hash": "12836406632707304393",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/layout/topbar/topbar.component.ts",
+          "hash": "11619421160197634496",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/components/empty-state/empty-state.component.ts",
+          "hash": "11487538611809915131",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/components/page-header/page-header.component.ts",
+          "hash": "1460943696951996395",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/components/skeleton/skeleton.component.ts",
+          "hash": "3804525767468148140",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/components/toast-container/toast-container.component.ts",
+          "hash": "13770427568803673077",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/components/toast/toast.component.ts",
+          "hash": "6757556076937866710",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/components/toast/toast.service.spec.ts",
+          "hash": "12497276163949909931",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/shared/components/toast/toast.service.ts",
+          "hash": "12170462285824814550",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/styles/_global.scss",
+          "hash": "15398517338236836911"
+        },
+        {
+          "file": "apps/web/src/app/styles/_tokens.scss",
+          "hash": "14702187181279905623"
+        },
+        {
+          "file": "apps/web/src/app/styles/_typography.scss",
+          "hash": "12917769065155906500"
+        },
+        {
+          "file": "apps/web/src/environments/environment.development.ts",
+          "hash": "9408820954122525604"
+        },
+        {
+          "file": "apps/web/src/environments/environment.ts",
+          "hash": "13500469622931969569"
+        },
+        {
+          "file": "apps/web/src/index.html",
+          "hash": "4932614803925461170"
+        },
+        {
+          "file": "apps/web/src/main.ts",
+          "hash": "17436527127367840298",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/web/src/styles.scss",
+          "hash": "8628190694536643008"
+        },
+        {
+          "file": "apps/web/tsconfig.app.json",
+          "hash": "17468601190762500567"
+        },
+        {
+          "file": "apps/web/tsconfig.spec.json",
+          "hash": "9557632933452339338"
+        }
+      ],
+      "shared": [
+        {
+          "file": "libs/shared/project.json",
+          "hash": "17458963379286771600"
+        },
+        {
+          "file": "libs/shared/src/index.ts",
+          "hash": "2666177175244405653"
+        },
+        {
+          "file": "libs/shared/src/lib/collections/collection.interface.ts",
+          "hash": "5901380850227000256"
+        },
+        {
+          "file": "libs/shared/src/lib/event/event.interface.ts",
+          "hash": "10551019579253517501"
+        },
+        {
+          "file": "libs/shared/src/lib/games/game-info.interface.ts",
+          "hash": "2818850503310392934"
+        },
+        {
+          "file": "libs/shared/src/lib/games/games.interface.ts",
+          "hash": "17698962308144708292"
+        },
+        {
+          "file": "libs/shared/src/lib/locations/location.interface.ts",
+          "hash": "4093901634279923501"
+        },
+        {
+          "file": "libs/shared/src/lib/locations/venue.interface.ts",
+          "hash": "17208563055361477265"
+        },
+        {
+          "file": "libs/shared/src/lib/play/log-play.interface.ts",
+          "hash": "3099130199017669782"
+        },
+        {
+          "file": "libs/shared/src/lib/shared/select-item.interface.ts",
+          "hash": "8521598605966491543"
+        },
+        {
+          "file": "libs/shared/src/lib/social/social.interface.ts",
+          "hash": "609840515189789673"
+        },
+        {
+          "file": "libs/shared/src/lib/tier-list/tier-list.interface.ts",
+          "hash": "15566714711574503801"
+        },
+        {
+          "file": "libs/shared/src/lib/user/profile.interface.ts",
+          "hash": "6804468081127314053"
+        },
+        {
+          "file": "libs/shared/tsconfig.lib.json",
+          "hash": "3608061556028596711"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/.env",
+          "hash": "15229572878897862398"
+        },
+        {
+          "file": "apps/api/.env.example",
+          "hash": "512635921369593912"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "16078086277998634920"
+        },
+        {
+          "file": "apps/api/src/app/app.module.ts",
+          "hash": "11689663264156811125"
+        },
+        {
+          "file": "apps/api/src/app/bgg/bgg-api.client.ts",
+          "hash": "3701317511900284366",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common",
+            "npm:fast-xml-parser",
+            "npm:rxjs",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/bgg/bgg-http.service.ts",
+          "hash": "14652786350683730100",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common",
+            "npm:axios",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/bgg/bgg-thing.parser.spec.ts",
+          "hash": "6490322778437801160",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/bgg/bgg-thing.parser.ts",
+          "hash": "14893006897216472832",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/bgg/bgg.module.ts",
+          "hash": "2030113757986421088",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/collections/collections.controller.ts",
+          "hash": "9869543162734624568",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/collections/collections.module.ts",
+          "hash": "15184051293129622909",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/collections/collections.service.ts",
+          "hash": "14659723470387070392",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:fast-xml-parser",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/events/events.controller.ts",
+          "hash": "11853293420188912198",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/events/events.module.ts",
+          "hash": "18294001852733760323"
+        },
+        {
+          "file": "apps/api/src/app/events/events.service.ts",
+          "hash": "3859671272655611331",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/games/games.controller.ts",
+          "hash": "18048192138402346657",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/games/games.module.ts",
+          "hash": "4949059160706908438",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/games/games.service.ts",
+          "hash": "11561851755645476262",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/locations/locations.controller.ts",
+          "hash": "15388363933978373054",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/locations/locations.module.ts",
+          "hash": "16216282741228401232"
+        },
+        {
+          "file": "apps/api/src/app/locations/locations.service.ts",
+          "hash": "12648426806382577899",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/plays/plays.controller.ts",
+          "hash": "6413869343161170119",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/plays/plays.module.ts",
+          "hash": "2341104014622187339"
+        },
+        {
+          "file": "apps/api/src/app/plays/plays.service.ts",
+          "hash": "8968032059160224803",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/social/social.controller.ts",
+          "hash": "4328538706912662942",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/social/social.module.ts",
+          "hash": "2059396422273031972"
+        },
+        {
+          "file": "apps/api/src/app/social/social.service.ts",
+          "hash": "8802789526533129099",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/supabase/jwt-auth.guard.ts",
+          "hash": "11329485562879103421"
+        },
+        {
+          "file": "apps/api/src/app/supabase/supabase.module.ts",
+          "hash": "7790471691978649139",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/supabase/supabase.service.ts",
+          "hash": "14359828712252485651"
+        },
+        {
+          "file": "apps/api/src/app/tier-lists/tier-lists.controller.ts",
+          "hash": "3078294009553401919",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/tier-lists/tier-lists.module.ts",
+          "hash": "17527054946411711667"
+        },
+        {
+          "file": "apps/api/src/app/tier-lists/tier-lists.service.ts",
+          "hash": "2474580984268329466",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "11589045535425871687",
+          "deps": [
+            "npm:reflect-metadata"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "16924685897803121288"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "5383107007345503947"
+        }
+      ]
+    }
+  }
+}

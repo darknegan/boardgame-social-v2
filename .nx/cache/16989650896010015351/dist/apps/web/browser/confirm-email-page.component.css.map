@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/features/auth/confirm-email-page.component.ts"],
+  "sourcesContent": ["\n    .auth-card { width: min(100%, 420px); padding: var(--space-2xl); text-align: center; }\n    .title { margin: 0; font-family: 'Fraunces', serif; font-size: 1.75rem; font-weight: 700; }\n    .subtitle { margin: var(--space-sm) 0 var(--space-xl); color: var(--color-text-secondary); line-height: 1.5; }\n  "],
+  "mappings": ";AACI,CAAA;AAAa,SAAA,IAAA,IAAA,EAAA;AAAyB,WAAA,IAAA;AAA2B,cAAA;;AACjE,CAAA;AAAS,UAAA;AAAW,eAAA,UAAA,EAAA;AAAgC,aAAA;AAAoB,eAAA;;AACxE,CAAA;AAAY,UAAA,IAAA,YAAA,EAAA,IAAA;AAA2C,SAAA,IAAA;AAAoC,eAAA;;",
+  "names": []
+}

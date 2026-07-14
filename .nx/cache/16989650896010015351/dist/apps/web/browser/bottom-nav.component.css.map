@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/layout/bottom-nav/bottom-nav.component.ts"],
+  "sourcesContent": ["\n    .bottom-nav {\n      display: none;\n      position: fixed;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      height: 64px;\n      background: var(--color-bg-raised);\n      border-top: 1px solid var(--color-border);\n      z-index: 30;\n      padding: 0 var(--space-sm);\n      justify-content: space-around;\n      align-items: center;\n    }\n\n    @media (max-width: 768px) {\n      .bottom-nav {\n        display: flex;\n      }\n    }\n\n    .tab {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 2px;\n      padding: var(--space-xs) var(--space-sm);\n      color: var(--color-text-muted);\n      font-size: 0.625rem;\n      font-weight: 700;\n\n      &.active {\n        color: var(--color-primary);\n      }\n    }\n\n    .tab-icon {\n      font-size: 1.25rem;\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,WAAA;AACA,YAAA;AACA,UAAA;AACA,QAAA;AACA,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,cAAA,IAAA,MAAA,IAAA;AACA,WAAA;AACA,WAAA,EAAA,IAAA;AACA,mBAAA;AACA,eAAA;;AAGF,QAAA,WAAA;AACE,GAhBF;AAiBI,aAAA;;;AAIJ,CAAA;AACE,WAAA;AACA,kBAAA;AACA,eAAA;AACA,OAAA;AACA,WAAA,IAAA,YAAA,IAAA;AACA,SAAA,IAAA;AACA,aAAA;AACA,eAAA;;AAEA,CAVF,GAUE,CAAA;AACE,SAAA,IAAA;;AAIJ,CAAA;AACE,aAAA;;",
+  "names": []
+}

@@ -1,0 +1,41 @@
+> ng build web --configuration=production
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+> Building...
+√ Building...
+Initial chunk files | Names                        |  Raw size | Estimated transfer size
+chunk-EQCRW6UV.js   | -                            | 208.29 kB |                46.04 kB
+chunk-RZL4QCGQ.js   | -                            | 150.29 kB |                44.72 kB
+chunk-3UDAGYXL.js   | -                            |  87.80 kB |                22.24 kB
+chunk-IBW3ZVDY.js   | -                            |  24.09 kB |                 6.62 kB
+main-TFADOSLG.js    | main                         |  18.77 kB |                 4.53 kB
+styles-SLWPHB7C.css | styles                       |   4.15 kB |                 1.09 kB
+chunk-D5P5TDSE.js   | -                            |   3.14 kB |                 1.01 kB
+chunk-X2M3XW43.js   | -                            |   1.04 kB |               437 bytes
+chunk-WCYRQZVQ.js   | -                            | 482 bytes |               482 bytes
+
+                    | Initial total                | 498.05 kB |               127.17 kB
+
+Lazy chunk files    | Names                        |  Raw size | Estimated transfer size
+chunk-XVVHXRUI.js   | tier-list-page-component     |  68.58 kB |                16.95 kB
+chunk-JEORM3PJ.js   | -                            |  40.49 kB |                 8.50 kB
+chunk-6W4SGV2W.js   | events-page-component        |   8.78 kB |                 2.78 kB
+chunk-WMULWZG4.js   | game-overview-page-component |   8.35 kB |                 2.84 kB
+chunk-W5UFTA5D.js   | home-page-component          |   6.92 kB |                 2.44 kB
+chunk-VNQM3XF7.js   | profile-edit-page-component  |   6.01 kB |                 2.27 kB
+chunk-RSEHIKGH.js   | settings-page-component      |   4.99 kB |                 1.86 kB
+chunk-EBRCZSBU.js   | profile-page-component       |   4.53 kB |                 1.75 kB
+chunk-F47BI54J.js   | games-page-component         |   4.32 kB |                 1.71 kB
+chunk-DIV2TTLL.js   | collection-page-component    |   3.92 kB |                 1.57 kB
+chunk-F6ROV5XT.js   | signup-page-component        |   3.28 kB |                 1.30 kB
+chunk-OTUIMZG2.js   | user-profile-page-component  |   3.17 kB |                 1.32 kB
+chunk-JXU7O3BT.js   | import-games-page-component  |   3.16 kB |                 1.35 kB
+chunk-KEVY5P6R.js   | onboarding-page-component    |   3.13 kB |                 1.32 kB
+chunk-VGX5SLVL.js   | login-page-component         |   3.03 kB |                 1.25 kB
+...and 10 more lazy chunks files. Use "--verbose" to show all the files.
+
+Application bundle generation complete. [5.160 seconds] - 2026-07-14T03:12:04.541Z
+
+Output location: C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\dist\apps\web
+

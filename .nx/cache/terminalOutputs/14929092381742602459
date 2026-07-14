@@ -1,0 +1,71 @@
+> ng build web --configuration=development
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+> Building...
+√ Building...
+Application bundle generation failed. [4.090 seconds] - 2026-06-18T06:10:46.278Z
+
+▲ [WARNING] Cannot find base config file "../../tsconfig.base.json" [tsconfig.json]
+
+    tsconfig.json:2:13:
+      2 │   "extends": "../../tsconfig.base.json",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] Non-relative path "libs/shared/src/index.ts" is not allowed when "baseUrl" is not set (did you forget a leading "./"?) [tsconfig.json]
+
+    tsconfig.json:5:22:
+      5 │       "@bgs/shared": ["libs/shared/src/index.ts"],
+        ╵                       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] Non-relative path "libs/shared/src/lib/*" is not allowed when "baseUrl" is not set (did you forget a leading "./"?) [tsconfig.json]
+
+    tsconfig.json:6:24:
+      6 │       "@bgs/shared/*": ["libs/shared/src/lib/*"]
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2307: Cannot find module '../../environments/environment' or its corresponding type declarations. [plugin angular-compiler]
+
+    apps/web/src/app/core/supabase/supabase.service.ts:3:28:
+      3 │ import { environment } from '../../environments/environment';
+        ╵                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2307: Cannot find module '../../../shared/components/page-header/page-header.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    apps/web/src/app/features/home/home-page.component.ts:2:36:
+      2 │ ...ent } from '../../../shared/components/page-header/page-header.c...
+        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically. [plugin angular-compiler]
+
+    apps/web/src/app/features/home/home-page.component.ts:7:12:
+      7 │   imports: [PageHeaderComponent],
+        ╵             ~~~~~~~~~~~~~~~~~~~
+
+  Unknown reference.
+
+    apps/web/src/app/features/home/home-page.component.ts:7:12:
+      7 │   imports: [PageHeaderComponent],
+        ╵             ~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] Could not resolve "../../environments/environment"
+
+    apps/web/src/app/core/supabase/supabase.service.ts:3:28:
+      3 │ import { environment } from '../../environments/environment';
+        ╵                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] Could not resolve "../../../shared/components/page-header/page-header.component"
+
+    apps/web/src/app/features/home/home-page.component.ts:3:36:
+      3 │ ...ent } from '../../../shared/components/page-header/page-header.c...
+        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+

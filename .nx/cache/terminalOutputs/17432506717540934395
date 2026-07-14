@@ -1,0 +1,54 @@
+> ng test web
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+> Building...
+√ Building...
+Initial chunk files                               | Names                                          |  Raw size
+spec-app-app.js                                   | spec-app-app                                   |   7.76 kB | 
+chunk-N76LG5D5.js                                 | -                                              |   6.78 kB | 
+styles.css                                        | styles                                         |   5.03 kB | 
+chunk-CGZBV6BD.js                                 | -                                              |   4.07 kB | 
+spec-app-core-api-collections-api.service.js      | spec-app-core-api-collections-api.service      |   2.53 kB | 
+spec-app-core-auth-auth.guard.js                  | spec-app-core-auth-auth.guard                  |   1.91 kB | 
+chunk-AHI7JU7F.js                                 | -                                              |   1.24 kB | 
+init-testbed.js                                   | init-testbed                                   |   1.21 kB | 
+vitest-mock-patch.js                              | vitest-mock-patch                              | 969 bytes | 
+spec-app-core-auth-auth.service.js                | spec-app-core-auth-auth.service                | 784 bytes | 
+spec-app-shared-components-toast-toast.service.js | spec-app-shared-components-toast-toast.service | 729 bytes | 
+
+                                                  | Initial total                                  |  33.02 kB
+
+Application bundle generation complete. [4.606 seconds] - 2026-07-14T03:09:53.610Z
+
+
+ RUN  v4.1.9 C:/Users/baseb/OneDrive/Documents/GitHub/boardgame-social-v2
+
+(node:24476) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13720) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ❯ |web| apps/web/src/app/core/auth/auth.service.spec.ts (3 tests | 1 failed) 5049ms
+     × waitUntilReady resolves when not loading 5018ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |web| apps/web/src/app/core/auth/auth.service.spec.ts > AuthService > waitUntilReady resolves when not loading
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ apps/web/src/app/core/auth/auth.service.spec.ts:21:3
+     19|   });
+     20|
+     21|   it('waitUntilReady resolves when not loading', async () => {
+       |   ^
+     22|     await expect(service.waitUntilReady()).resolves.toBeUndefined();
+     23|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 4 passed (5)
+      Tests  1 failed | 10 passed (11)
+   Start at  22:09:54
+   Duration  8.75s (transform 249ms, setup 3.46s, import 549ms, tests 5.22s, environment 10.81s)
+

@@ -1,0 +1,14 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 66 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.service.ts:247:22[39m[22m
+[1mTS2352: Conversion of type 'GenericStringError' to type 'Record<string, number>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Index signature for type 'string' is missing in type '{ [1m[31merror[39m[22m[1m: true; } & String'.
+    245 |     const { data } = await admin.from(table).select(column).eq('id', id).single();
+    246 |     if (!data) return;
+  > 247 |     const current = (data as Record<string, number>)[column] ?? 0;
+        |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    248 |     await admin
+    249 |       .from(table)
+    250 |       .update({ [column]: Math.max(0, current + delta) })[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (7bca1e55af8425fb)

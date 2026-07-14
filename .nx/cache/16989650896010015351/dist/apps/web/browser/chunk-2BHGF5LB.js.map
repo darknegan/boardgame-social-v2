@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/web/src/app/core/api/plays-api.service.ts"],
+  "sourcesContent": ["import { Injectable, inject } from '@angular/core';\r\nimport { HttpClient } from '@angular/common/http';\r\nimport { LogPlay, PlayRecord } from '@bgs/shared';\r\nimport { Observable } from 'rxjs';\r\n\r\n@Injectable({ providedIn: 'root' })\r\nexport class PlaysApiService {\r\n  private readonly http = inject(HttpClient);\r\n\r\n  listPlays(limit = 20): Observable<PlayRecord[]> {\r\n    return this.http.get<PlayRecord[]>('plays', { params: { limit } });\r\n  }\r\n\r\n  logPlay(play: LogPlay): Observable<PlayRecord> {\r\n    return this.http.post<PlayRecord>('plays', play);\r\n  }\r\n}\r\n"],
+  "mappings": ";;;;;;;;;;;AAMM,IAAO,kBAAP,MAAO,iBAAe;EACT,OAAO,OAAO,UAAU;EAEzC,UAAU,QAAQ,IAAE;AAClB,WAAO,KAAK,KAAK,IAAkB,SAAS,EAAE,QAAQ,EAAE,MAAK,EAAE,CAAE;EACnE;EAEA,QAAQ,MAAa;AACnB,WAAO,KAAK,KAAK,KAAiB,SAAS,IAAI;EACjD;;qCATW,kBAAe;EAAA;4EAAf,kBAAe,SAAf,iBAAe,WAAA,YADF,OAAM,CAAA;;;sEACnB,iBAAe,CAAA;UAD3B;WAAW,EAAE,YAAY,OAAM,CAAE;;;",
+  "names": []
+}

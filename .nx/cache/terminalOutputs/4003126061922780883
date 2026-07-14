@@ -1,0 +1,36 @@
+> ng build web --configuration=production
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+> Building...
+√ Building...
+Application bundle generation failed. [4.791 seconds] - 2026-07-14T03:08:51.430Z
+
+X [ERROR] TS2339: Property 'likePost' does not exist on type 'SocialApiService'. [plugin angular-compiler]
+
+    apps/web/src/app/features/home/home-page.component.ts:253:16:
+      253 │     this.social.likePost(post.id).subscribe({
+          ╵                 ~~~~~~~~
+
+
+X [ERROR] TS7031: Binding element 'liked' implicitly has an 'any' type. [plugin angular-compiler]
+
+    apps/web/src/app/features/home/home-page.component.ts:254:15:
+      254 │       next: ({ liked }) => {
+          ╵                ~~~~~
+
+
+X [ERROR] TS2339: Property 'commentOnPost' does not exist on type 'SocialApiService'. [plugin angular-compiler]
+
+    apps/web/src/app/features/home/home-page.component.ts:276:16:
+      276 │     this.social.commentOnPost(postId, { body: body.trim() }).subs...
+          ╵                 ~~~~~~~~~~~~~
+
+
+X [ERROR] TS2345: Argument of type '{ username: string; }' is not assignable to parameter of type 'string'. [plugin angular-compiler]
+
+    apps/web/src/app/features/settings/settings-page.component.ts:165:34:
+      165 │     this.social.sendFriendRequest({ username }).subscribe({
+          ╵                                   ~~~~~~~~~~~~
+
+
