@@ -2840,3 +2840,218 @@
 [NX v20.8.1 Daemon Server] - 2026-07-14T03:12:05.978Z - [REQUEST]: Responding to the client. handleContextFileData
 [NX v20.8.1 Daemon Server] - 2026-07-14T03:12:05.978Z - Done responding to the client handleContextFileData
 [NX v20.8.1 Daemon Server] - 2026-07-14T03:12:05.978Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.877Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.880Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.883Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.912Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.912Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.914Z - Time taken for 'total for creating and serializing project graph' 0.4229999999515712ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.915Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.915Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.926Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.926Z - Time taken for 'preTasksExecution' 0.25280000001657754ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.926Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.927Z - Handled PRE_TASKS_EXECUTION. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.983Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.984Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:01.984Z - Handled HASH_TASKS. Handling time: 4. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:02.012Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:02.013Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:02.013Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 1. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:08.321Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:08.976Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:09.031Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:10.720Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:23:12.560Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:13.498Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:14.277Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:30.472Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:30.472Z - [WATCHER]: Stopping the watcher for c:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2 (sources)
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:30.472Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:30.472Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:30.472Z - [WATCHER]: Stopping the watcher for c:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2 (outputs)
+[NX v20.8.1 Daemon Server] - 2026-07-14T03:44:30.479Z - Server stopped because: "NX_VERSION_CHANGED"
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:04.533Z - Started listening on: \\.\pipe\nx\C:\Users\baseb\AppData\Local\Temp\990d230ae0ab6abe0f61\d.sock
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:04.547Z - [WATCHER]: Subscribed to changes within: C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2 (native)
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:04.551Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:04.553Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:04.554Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:04.556Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:04.655Z - Time taken for 'loadSpecifiedNxPlugins' 5.408399999999915ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.101Z - Time taken for 'Load Nx Plugin: C:\Users\baseb\AppData\Local\pnpm\global\5\.pnpm\nx@20.8.1\node_modules\nx\src\plugins\package-json' 538.9544ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.112Z - Time taken for 'Load Nx Plugin: C:\Users\baseb\AppData\Local\pnpm\global\5\.pnpm\nx@20.8.1\node_modules\nx\src\plugins\js' 550.2669ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.121Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.121Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.121Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.129Z - Time taken for 'loadDefaultNxPlugins' 562.0712ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.167Z - Time taken for 'build-project-configs' 23.223799999999983ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.196Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.197Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.198Z - Time taken for 'total for creating and serializing project graph' 640.4065ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.199Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.199Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 640. Response time: 3.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.207Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.207Z - Time taken for 'preTasksExecution' 0.7686999999998534ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.207Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.207Z - Handled PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.293Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.293Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.293Z - Handled HASH_TASKS. Handling time: 24. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.327Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.327Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:05.327Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 4. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.299Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.299Z - Done responding to the client recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.299Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.310Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.311Z - Done responding to the client handleRecordTaskRuns
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.311Z - Handled RECORD_TASK_RUNS. Handling time: 5. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.313Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.314Z - Done responding to the client handleGetFlakyTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.314Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.321Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.321Z - Time taken for 'postTasksExecution' 0.25169999999980064ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.321Z - Done responding to the client handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.321Z - Handled POST_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:51:07.325Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.616Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.616Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.617Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.620Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.620Z - Done responding to the client Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.620Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.631Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.631Z - [WATCHER]: Stopping the watcher for C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2 (sources)
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.631Z - [WATCHER]: Stopping the watcher for C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2 (outputs)
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:28.632Z - Server stopped because: "Request to shutdown"
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.242Z - Started listening on: \\.\pipe\nx\C:\Users\baseb\AppData\Local\Temp\990d230ae0ab6abe0f61\d.sock
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.246Z - [WATCHER]: Subscribed to changes within: C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2 (native)
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.249Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.251Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.252Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.254Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.322Z - Time taken for 'loadSpecifiedNxPlugins' 2.9057000000000244ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.937Z - Time taken for 'Load Nx Plugin: C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\node_modules\nx\src\plugins\package-json' 680.2465000000001ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.941Z - Time taken for 'Load Nx Plugin: C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\node_modules\nx\src\plugins\js' 684.8915ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.942Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.942Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.942Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:40.950Z - Time taken for 'loadDefaultNxPlugins' 686.7923000000001ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.102Z - Time taken for 'build-project-configs' 36.70100000000002ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.213Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.214Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.215Z - Time taken for 'total for creating and serializing project graph' 960.0928000000001ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.216Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.216Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 961. Response time: 2.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.225Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.226Z - Time taken for 'preTasksExecution' 1.0107000000000426ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.226Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.227Z - Handled PRE_TASKS_EXECUTION. Handling time: 1. Response time: 2.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.353Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.353Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.353Z - Handled HASH_TASKS. Handling time: 20. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.379Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.380Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:41.380Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 3. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:52.191Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:53.098Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:53.167Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:52:56.081Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.248Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.249Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.249Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.253Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.253Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.254Z - Time taken for 'total for creating and serializing project graph' 0.4862999999895692ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.255Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.255Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.262Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.262Z - Time taken for 'preTasksExecution' 0.30790000001434237ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.262Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.262Z - Handled PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.298Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.298Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.298Z - Handled HASH_TASKS. Handling time: 5. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.315Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.315Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:07.315Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.542Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.543Z - Done responding to the client recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.543Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.551Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.551Z - Done responding to the client handleRecordTaskRuns
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.551Z - Handled RECORD_TASK_RUNS. Handling time: 3. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.552Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.553Z - Done responding to the client handleGetFlakyTasks
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.553Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.557Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.558Z - Time taken for 'postTasksExecution' 0.251300000003539ms
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.558Z - Done responding to the client handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.558Z - Handled POST_TASKS_EXECUTION. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-14T04:55:08.561Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-14T05:23:31.557Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-14T05:30:07.045Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.572Z - Started listening on: \\.\pipe\nx\C:\Users\baseb\AppData\Local\Temp\990d230ae0ab6abe0f61\d.sock
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.579Z - [WATCHER]: Subscribed to changes within: c:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2 (native)
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.581Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.625Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.820Z - Time taken for 'loadSpecifiedNxPlugins' 5.271399999999971ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.886Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.886Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.888Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:12.893Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.619Z - Time taken for 'Load Nx Plugin: c:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\node_modules\nx\src\plugins\package-json' 933.0478999999999ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.764Z - Time taken for 'Load Nx Plugin: c:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 1077.1509999999998ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.859Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.859Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.859Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.870Z - Time taken for 'loadDefaultNxPlugins' 1175.5504ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.944Z - Time taken for 'build-project-configs' 36.741999999999734ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:13.998Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:14.000Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:14.003Z - Time taken for 'total for creating and serializing project graph' 1106.9158000000002ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:14.004Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:14.004Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1107. Response time: 4.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:14.014Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:14.015Z - Done responding to the client handleContextFileData
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:32:14.015Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.413Z - [WATCHER]: package-lock.json was modified
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.414Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.518Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.518Z - [REQUEST]: package-lock.json
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.518Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.521Z - Time taken for 'hash changed files from watcher' 1.3231999999843538ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.543Z - Time taken for 'build-project-configs' 17.76350000000093ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.575Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.575Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.575Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:01.575Z - Time taken for 'total execution time for createProjectGraph()' 24.13650000002235ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.437Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.437Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.438Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.439Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.440Z - Time taken for 'total for creating and serializing project graph' 0.3873000000603497ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.441Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.441Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.446Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.446Z - Done responding to the client handleContextFileData
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:42:12.446Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.689Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.690Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.691Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.697Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.698Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.699Z - Time taken for 'total for creating and serializing project graph' 0.711200000019744ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.700Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.700Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.709Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.709Z - Time taken for 'preTasksExecution' 0.8578999999444932ms
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.709Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.709Z - Handled PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.833Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.834Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.834Z - Handled HASH_TASKS. Handling time: 39. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.901Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.902Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:02.902Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 42. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2026-07-16T02:47:11.735Z - [WATCHER]: Processing file changes in outputs

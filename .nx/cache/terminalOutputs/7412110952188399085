@@ -1,0 +1,754 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2abcf7cf2a1ba70b)
+[1m[31mDebugger listening on ws://localhost:9229/b3254ec8-8876-4ac2-b8c3-acf62499bb99[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b3254ec8-8876-4ac2-b8c3-acf62499bb99[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +14ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+[32m[Nest] 10076  - [39m07/13/2026, 9:28:58 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2abcf7cf2a1ba70b)
+[1m[31mDebugger listening on ws://localhost:9229/29df93cb-3149-46c6-b835-7f46a4cc61d1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/29df93cb-3149-46c6-b835-7f46a4cc61d1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 4572  - [39m07/13/2026, 9:45:31 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2abcf7cf2a1ba70b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 52.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2abcf7cf2a1ba70b)
+[1m[31mDebugger listening on ws://localhost:9229/b51ac574-5839-478f-b885-6fb80cfd0b91[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b51ac574-5839-478f-b885-6fb80cfd0b91[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8f3f70ba-fee9-447b-ab4d-f0d266f32262[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8f3f70ba-fee9-447b-ab4d-f0d266f32262[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +9ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +12ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +9ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +7ms[39m
+[32m[Nest] 8720  - [39m07/13/2026, 9:45:37 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (14b2090dce3b80e0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f88285eaf396ad14)
+[1m[31mDebugger listening on ws://localhost:9229/b0a6917b-8319-4f7a-93e9-3a2b505cd556[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b0a6917b-8319-4f7a-93e9-3a2b505cd556[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (adee251fffe909b7)
+[1m[31mDebugger listening on ws://localhost:9229/e472b575-cd6e-4861-a7a6-160c1c7bb609[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e472b575-cd6e-4861-a7a6-160c1c7bb609[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/events/events.controller.ts:[32m[1m22:56[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 20 |[39m     [33m@[39m[33mBody[39m() body[33m:[39m [33mCreateEventDto[39m[33m,[39m
+   [90m 21 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[33mGameEvent[39m[33m>[39m {
+  [31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39meventsService[33m.[39mcreateEvent(req[33m.[39muser[33m.[39mid[33m,[39m body[33m.[39mgameEvent)[33m;[39m
+   [90m    |[39m                                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 23 |[39m   }
+   [90m 24 |[39m }
+   [90m 25 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0c42e4c66a7b4545)
+[1m[31mDebugger listening on ws://localhost:9229/a382dad8-7848-46e2-abb6-0aa392d32ca0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a382dad8-7848-46e2-abb6-0aa392d32ca0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a68e67acbb2220aa)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/02470426-1603-4399-9ccb-fc081058b595[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/02470426-1603-4399-9ccb-fc081058b595[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 14628  - [39m07/13/2026, 9:45:48 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14628  - [39m07/13/2026, 9:45:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +26ms[39m
+[1m[31m[31m[Nest] 14628  - [39m[31m07/13/2026, 9:45:48 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionHandler] [39m[31mUnknownDependenciesException [Error]: Nest can't resolve dependencies of the BggApiClient (?). Please make sure that the argument BggHttpService at index [0] is available in the GamesModule module.[39m[22m
+[1m[31m[39m[22m
+[1m[31mPotential solutions:[39m[22m
+[1m[31m- Is GamesModule a valid NestJS module?[39m[22m
+[1m[31m- If BggHttpService is a provider, is it part of the current GamesModule?[39m[22m
+[1m[31m- If BggHttpService is exported from a separate @Module, is that module imported within GamesModule?[39m[22m
+[1m[31m  @Module({[39m[22m
+[1m[31m    imports: [ /* the Module containing BggHttpService */ ][39m[22m
+[1m[31m  })[39m[22m
+[1m[31m[39m[22m
+[1m[31mFor more common dependency resolution issues, see: https://docs.nestjs.com/faq/common-errors[39m[22m
+[1m[31m    at Injector.lookupComponentInParentModules [90m(C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\[39m[31mnode_modules\[4m@nestjs\core[24m\injector\injector.js:300:19[90m)[39m[31m[39m[22m
+[1m[31m[90m    at processTicksAndRejections (node:internal/process/task_queues:104:5)[39m[31m[39m[22m
+[1m[31m    at resolveParam [90m(C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\[39m[31mnode_modules\[4m@nestjs\core[24m\injector\injector.js:150:38[90m)[39m[31m[39m[22m
+[1m[31m    at async Promise.all (index 0)[39m[22m
+[1m[31m    at Injector.resolveConstructorParams [90m(C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\[39m[31mnode_modules\[4m@nestjs\core[24m\injector\injector.js:179:27[90m)[39m[31m[39m[22m
+[1m[31m    at Injector.loadInstance [90m(C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\[39m[31mnode_modules\[4m@nestjs\core[24m\injector\injector.js:77:13[90m)[39m[31m[39m[22m
+[1m[31m    at Injector.loadProvider [90m(C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\[39m[31mnode_modules\[4m@nestjs\core[24m\injector\injector.js:111:9[90m)[39m[31m[39m[22m
+[1m[31m    at [90mC:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\[39m[31mnode_modules\[4m@nestjs\core[24m\injector\instance-loader.js:56:13[39m[22m
+[1m[31m    at async Promise.all (index 4)[39m[22m
+[1m[31m    at InstanceLoader.createInstancesOfProviders [90m(C:\Users\baseb\OneDrive\Documents\GitHub\boardgame-social-v2\[39m[31mnode_modules\[4m@nestjs\core[24m\injector\instance-loader.js:55:9[90m)[39m[31m {[39m[22m
+[1m[31m  type: [32m'BggApiClient'[39m[31m,[39m[22m
+[1m[31m  context: {[39m[22m
+[1m[31m    index: [33m0[39m[31m,[39m[22m
+[1m[31m    dependencies: [[39m[22m
+[1m[31m      [36m[class BggHttpService][39m[31m[39m[22m
+[1m[31m    ],[39m[22m
+[1m[31m    name: [36m[class BggHttpService][39m[31m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  metadata: {[39m[22m
+[1m[31m    id: [32m'15a3c6cc64c0c40351dc9'[39m[31m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  moduleRef: {[39m[22m
+[1m[31m    id: [32m'7c669546e04335f7345bf'[39m[31m[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ff6d0420ddfba870)
+[1m[31mDebugger listening on ws://localhost:9229/a633e8f2-44cb-4803-bb08-b124bbd86da1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a633e8f2-44cb-4803-bb08-b124bbd86da1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 56.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (31e46104aac6fe77)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 56.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3fcad6205e995cdd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 56.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d704a3fbaa46b32)
+[1m[31mDebugger listening on ws://localhost:9229/c459b762-fad9-43f3-a506-f1f0c14ffdbb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c459b762-fad9-43f3-a506-f1f0c14ffdbb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/07b0865f-ee91-4445-a574-845008528fbc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/07b0865f-ee91-4445-a574-845008528fbc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a5fa0c7e-ef84-4bb7-86e3-3f7e1841f712[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a5fa0c7e-ef84-4bb7-86e3-3f7e1841f712[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +20ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+[32m[Nest] 15792  - [39m07/13/2026, 9:45:55 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 56.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d704a3fbaa46b32)
+[1m[31mDebugger listening on ws://localhost:9229/2ed2e7e0-ebee-4f8d-968f-9dc8a316e7de[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2ed2e7e0-ebee-4f8d-968f-9dc8a316e7de[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +20ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +8ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +8ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +7ms[39m
+[32m[Nest] 22516  - [39m07/13/2026, 9:46:01 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 57.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7334890a5a81aad6)
+[1m[31mDebugger listening on ws://localhost:9229/3643f38d-8626-499e-bb5d-57b81438a3a5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3643f38d-8626-499e-bb5d-57b81438a3a5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:07 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+[32m[Nest] 12436  - [39m07/13/2026, 9:48:08 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 57 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2871b3714314c2f5)
+[1m[31mDebugger listening on ws://localhost:9229/12da301b-b3d4-4759-af6e-8a40b782cf91[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/12da301b-b3d4-4759-af6e-8a40b782cf91[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 57 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2871b3714314c2f5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 57 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3873b7eef22001fe)
+[1m[31mDebugger listening on ws://localhost:9229/d8e5deb7-20d6-42b0-a39f-83b4b97fa7ba[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d8e5deb7-20d6-42b0-a39f-83b4b97fa7ba[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/230ab3c9-d70a-4bc1-b309-e14f14b6ed7f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/230ab3c9-d70a-4bc1-b309-e14f14b6ed7f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +25ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+[32m[Nest] 9636  - [39m07/13/2026, 9:50:07 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 56.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fd217ce4a7530f16)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 56.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bc26edfa1b8b5b47)
+[1m[31mDebugger listening on ws://localhost:9229/2e74fea6-323c-4454-906b-ce7e052b6e73[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2e74fea6-323c-4454-906b-ce7e052b6e73[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b2e9633b-8527-4c90-bd7e-2196a894a0b8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b2e9633b-8527-4c90-bd7e-2196a894a0b8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 22180  - [39m07/13/2026, 9:50:14 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.controller.ts:[32m[1m37:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'toggleLike' does not exist on type 'SocialService'.
+  [0m [90m 35 |[39m     [33m@[39m[33mParam[39m([32m'id'[39m) postId[33m:[39m string[33m,[39m
+   [90m 36 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m{ liked[33m:[39m boolean[33m;[39m like_count[33m:[39m number }[33m>[39m {
+  [31m[1m>[22m[39m[90m 37 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msocialService[33m.[39mtoggleLike(req[33m.[39muser[33m.[39mid[33m,[39m postId)[33m;[39m
+   [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 38 |[39m   }
+   [90m 39 |[39m
+   [90m 40 |[39m   [33m@[39m[33mPost[39m([32m'posts/:id/comments'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.controller.ts:[32m[1m46:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'addComment' does not exist on type 'SocialService'.
+  [0m [90m 44 |[39m     [33m@[39m[33mBody[39m() body[33m:[39m { body[33m:[39m string }[33m,[39m
+   [90m 45 |[39m   ) {
+  [31m[1m>[22m[39m[90m 46 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msocialService[33m.[39maddComment(req[33m.[39muser[33m.[39mid[33m,[39m postId[33m,[39m body[33m.[39mbody)[33m;[39m
+   [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 47 |[39m   }
+   [90m 48 |[39m
+   [90m 49 |[39m   [33m@[39m[33mGet[39m([32m'friends'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.controller.ts:[32m[1m59:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'sendFriendRequest' does not exist on type 'SocialService'.
+  [0m [90m 57 |[39m     [33m@[39m[33mBody[39m() body[33m:[39m { friend_id[33m:[39m string }[33m,[39m
+   [90m 58 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[33mFriend[39m[33m>[39m {
+  [31m[1m>[22m[39m[90m 59 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msocialService[33m.[39msendFriendRequest(req[33m.[39muser[33m.[39mid[33m,[39m body[33m.[39mfriend_id)[33m;[39m
+   [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m   }
+   [90m 61 |[39m
+   [90m 62 |[39m   [33m@[39m[33mPost[39m([32m'friends/requests/:id/accept'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.controller.ts:[32m[1m67:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'acceptFriendRequest' does not exist on type 'SocialService'.
+  [0m [90m 65 |[39m     [33m@[39m[33mParam[39m([32m'id'[39m) requestId[33m:[39m string[33m,[39m
+   [90m 66 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[33mFriend[39m[33m>[39m {
+  [31m[1m>[22m[39m[90m 67 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msocialService[33m.[39macceptFriendRequest(req[33m.[39muser[33m.[39mid[33m,[39m requestId)[33m;[39m
+   [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 68 |[39m   }
+   [90m 69 |[39m }
+   [90m 70 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (c7f28e1edcb16cff)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 63.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0154273e72a2eb59)
+[1m[31mDebugger listening on ws://localhost:9229/838e7f5f-c333-48a0-9415-94cb6b3b966b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/838e7f5f-c333-48a0-9415-94cb6b3b966b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts/:id/like, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts/:id/comments, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends/requests, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends/requests/:id/accept, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 24188  - [39m07/13/2026, 9:50:26 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 63.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7fdd0c8fcab7694e)
+[1m[31mDebugger listening on ws://localhost:9229/436ed6f7-196b-4525-8d15-d6b290e0e55d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/436ed6f7-196b-4525-8d15-d6b290e0e55d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +19ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts/:id/like, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts/:id/comments, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends/requests, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends/requests/:id/accept, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+[32m[Nest] 25976  - [39m07/13/2026, 9:51:41 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 64.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.controller.ts:[32m[1m48:5[22m[39m[1m[39m[22m
+[90mTS2322: [39mType 'Promise<{ id: any; post_id: string; body: any; created_at: any; author_username: any; author_display_name: any; }>' is not assignable to type 'Promise<PostComment>'.
+  Property 'author_id' is missing in type '{ id: any; post_id: string; body: any; created_at: any; author_username: any; author_display_name: any; }' but required in type 'PostComment'.
+  [0m [90m 46 |[39m     [33m@[39m[33mBody[39m() body[33m:[39m [33mCreateCommentDto[39m[33m,[39m
+   [90m 47 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[33mPostComment[39m[33m>[39m {
+  [31m[1m>[22m[39m[90m 48 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msocialService[33m.[39maddComment(req[33m.[39muser[33m.[39mid[33m,[39m postId[33m,[39m body)[33m;[39m
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 49 |[39m   }
+   [90m 50 |[39m
+   [90m 51 |[39m   [33m@[39m[33mGet[39m([32m'friends'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.controller.ts:[32m[1m48:63[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'CreateCommentDto' is not assignable to parameter of type 'string'.
+  [0m [90m 46 |[39m     [33m@[39m[33mBody[39m() body[33m:[39m [33mCreateCommentDto[39m[33m,[39m
+   [90m 47 |[39m   )[33m:[39m [33mPromise[39m[33m<[39m[33mPostComment[39m[33m>[39m {
+  [31m[1m>[22m[39m[90m 48 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msocialService[33m.[39maddComment(req[33m.[39muser[33m.[39mid[33m,[39m postId[33m,[39m body)[33m;[39m
+   [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 49 |[39m   }
+   [90m 50 |[39m
+   [90m 51 |[39m   [33m@[39m[33mGet[39m([32m'friends'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (aa0f04d10a66b0a0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 66 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/app/social/social.service.ts:[32m[1m247:22[22m[39m[1m[39m[22m
+[90mTS2352: [39mConversion of type 'GenericStringError' to type 'Record<string, number>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Index signature for type 'string' is missing in type '{ error: true; } & String'.
+  [0m [90m 245 |[39m     [36mconst[39m { data } [33m=[39m [36mawait[39m admin[33m.[39m[36mfrom[39m(table)[33m.[39mselect(column)[33m.[39meq([32m'id'[39m[33m,[39m id)[33m.[39msingle()[33m;[39m
+   [90m 246 |[39m     [36mif[39m ([33m![39mdata) [36mreturn[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 247 |[39m     [36mconst[39m current [33m=[39m (data [36mas[39m [33mRecord[39m[33m<[39m[33mstring[39m[33m,[39m number[33m>[39m)[column] [33m?[39m[33m?[39m [35m0[39m[33m;[39m
+   [90m     |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 248 |[39m     [36mawait[39m admin
+   [90m 249 |[39m       [33m.[39m[36mfrom[39m(table)
+   [90m 250 |[39m       [33m.[39mupdate({ [column][33m:[39m [33mMath[39m[33m.[39mmax([35m0[39m[33m,[39m current [33m+[39m delta) })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5491eddd4e1a84c1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 66 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2f1e23860ec86adb)
+[1m[31mDebugger listening on ws://localhost:9229/891bd8d7-50e8-452f-b2b2-173f44342671[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/891bd8d7-50e8-452f-b2b2-173f44342671[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +22ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBggModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSupabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLocationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlaysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSocialModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTierListsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCollectionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCollectionsController {/api/collections}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections, GET} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/preview, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/collections/import, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mGamesController {/api/games}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/info, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/games/bggGameDetails, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/api/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/events, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLocationsController {/api/locations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/countries, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/subdivisions, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/locations/venues, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlaysController {/api/plays}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plays, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSocialController {/api/social}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/feed, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts/:id/like, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/posts/:id/comments, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends/requests, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/social/friends/requests/:id/accept, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTierListsController {/api/tier-lists}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tier-lists, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+[32m[Nest] 16476  - [39m07/13/2026, 10:08:32 PM [32m    LOG[39m [32mAPI running at http://localhost:3000/api[39m

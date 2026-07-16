@@ -1,0 +1,6 @@
+[2m> [22mng serve web --configuration=development
+
+Node.js version v25.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+[1m[31mAn unhandled exception occurred: Port 4200 is already in use. Use '--port' to specify a different port.
+See "C:\Users\baseb\AppData\Local\Temp\ng-T2EU50\angular-errors.log" for further details.[39m[22m

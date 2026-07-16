@@ -1,32 +1,21 @@
 {
   "run": {
-    "command": "nx build web --configuration=production",
-    "startTime": "2026-07-14T03:11:56.949Z",
-    "endTime": "2026-07-14T03:12:04.819Z",
+    "command": "nx serve web",
+    "startTime": "2026-07-14T04:55:07.301Z",
+    "endTime": "2026-07-14T04:55:08.545Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "shared:build",
-      "target": "build",
-      "projectName": "shared",
-      "hash": "11633159716185598618",
-      "startTime": "2026-07-14T03:11:56.981Z",
-      "endTime": "2026-07-14T03:11:58.195Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "web:build:production",
-      "target": "build",
+      "taskId": "web:serve",
+      "target": "serve",
       "projectName": "web",
-      "hash": "13519741785983738064",
-      "startTime": "2026-07-14T03:11:58.251Z",
-      "endTime": "2026-07-14T03:12:04.710Z",
+      "hash": "9890820085140152064",
+      "startTime": "2026-07-14T04:55:07.319Z",
+      "endTime": "2026-07-14T04:55:08.542Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }
